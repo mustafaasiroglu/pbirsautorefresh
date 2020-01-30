@@ -1,0 +1,17 @@
+{
+  "name": "Full-screen Auto Refresh for PBIRS",
+  "description": "Select interval and see your report in fullscreen with auto refresh feature!",
+  "version": "1.5",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon.png" },
+  "browser_action": {
+      "default_title": "Auto Refresh & Full-screen for Report Server",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
