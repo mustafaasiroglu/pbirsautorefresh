@@ -38,7 +38,7 @@ function click(e) {
 		{code:"clearInterval(myinterval);"});
 	} else {
 		chrome.tabs.executeScript(null,
-		{code:"function pbirefresh() {document.querySelector('li.nav-pbi-refresh > a').click();}pbirefresh();clearInterval(myinterval);var myinterval = setInterval(pbirefresh, " + refreshinterval + "*1000);"});
+		{code:"function pbirefresh() {document.querySelector('#reportAppBarRefreshBtn').click();}pbirefresh();clearInterval(myinterval);var myinterval = setInterval(pbirefresh, " + refreshinterval + "*1000);"});
 		//e.target.id
 	}
 	window.close();
